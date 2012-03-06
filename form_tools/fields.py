@@ -22,7 +22,7 @@ class AbbreviationField(SlugField):
 
 def get_all_users_username_list():
     users = get_all_users()
-    user_choices = [(UrlGenerator.get_absolute_auth_user_url(user['username']),user['username']) for user in users]
+    user_choices = [(user['url'],user['username']) for user in users]
     return user_choices
 
 class UsernameField(ChoiceField):
