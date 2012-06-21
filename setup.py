@@ -3,7 +3,7 @@
 from distutils.core import setup
 
 setup(name='form_tools',
-      version='1.1',
+      version='1.2',
       description='Form tools for Django',
       author='Proteus Technologies',
       author_email='team@proteus-tech.com',
